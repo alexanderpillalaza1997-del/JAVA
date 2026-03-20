@@ -8,7 +8,7 @@ this.saldo = saldoInicial;
 public void transferir(double monto) {
 saldo = saldo - monto;
 }
-public void mostrarSueldo() {
+public void mostrarDinero() {
 System.out.println("Saldo de " + titular + ": $" + saldo);
 }
 }
