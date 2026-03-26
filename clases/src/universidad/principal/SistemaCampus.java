@@ -1,7 +1,7 @@
 package universidad.principal;
 
-	import universidad.usuarios.Estudiante;
-	import universidad.infraestructura.Laboratorio;
+	import universidad.Estudiante;
+	import universidad.Laboratorio;
 
 	public class SistemaCampus {
 
