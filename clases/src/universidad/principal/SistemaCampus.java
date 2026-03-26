@@ -2,7 +2,7 @@ package universidad.principal;
 
 	import universidad.Estudiante;
 	import universidad.Laboratorio;
-
+         
 	public class SistemaCampus {
 
 	    public static void main(String[] args) {
