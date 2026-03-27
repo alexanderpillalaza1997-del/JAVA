@@ -5,10 +5,9 @@ public class TestAuto {
 	   public static void main(String[] args) {
 
 	      
-	        Auto auto1 = new Auto();
-	        Auto auto2 = new Auto();
-
-	     
+	        Auto auto1 = new Auto("Chevrolet");
+	        Auto auto2 = new Auto(2000);
+	        
 	        auto1.setMarca ("Toyota");
 	        auto1.setAnio (2020);
 	        auto1.setPrecio (20000.50f);

@@ -4,9 +4,9 @@ public class TestCuadrado {
 	
 	public static void main(String[] args) {
 		
-	Cuadrado r1= new Cuadrado();
-	Cuadrado r2= new Cuadrado();
-	Cuadrado r3= new Cuadrado();
+	Cuadrado r1= new Cuadrado(5);
+	Cuadrado r2= new Cuadrado(4);
+	Cuadrado r3= new Cuadrado(6);
 
 	
 	double areaR1;

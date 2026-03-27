@@ -5,6 +5,18 @@ public class Auto {
 	    private int anio;
 	    private float precio;
 	    
+	    public Auto (String marca) {
+	    	this.marca=marca; 
+	    }
+	    
+	    public Auto (int anio) {
+	    	this.anio= anio; 
+	    }
+	    
+	    public Auto (Float precio) {
+	    	this.precio =precio; 
+	    }
+	    
 		public String getMarca() {
 			return marca;
 		}

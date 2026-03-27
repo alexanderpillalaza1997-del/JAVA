@@ -5,8 +5,13 @@ public class TestPersona {
 	public static void main(String[] args) {
 		// Esto es un comentario
 		Persona p; // 1. Declaro una variable llamada p de tipo Persona
-		p = new Persona(); // 2. Instancio un objeto Persona y referencia con p
 		Persona p2 = new Persona();
+		Persona p4= new Persona ("Rpcio",43,1.60);
+		System.out.println("nombre:" + p4.getNombre());
+		System.out.println("edad:" + p4.getEdad());
+		System.out.println("estatura:" + p4.getEstatura());
+		
+		p=new Persona();
 
 		// 3. Accedo a los atributos
 		System.out.println("nombre:" + p.getNombre());
